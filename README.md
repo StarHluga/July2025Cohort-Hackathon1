@@ -1,83 +1,77 @@
 # July 2025 Cohort Hackathon 1: Portfolio Challenge 🚀  
 
-Welcome to the **PLP Academy Portfolio Challenge!** 🎉  
+## Portfolio Documentation
 
-This README.md file provides all the details you need to successfully complete and submit your project. Let’s get started! 💻  
+🗂 **Overview**
+This project is a responsive, personal portfolio website built with HTML and CSS (no JavaScript), designed to showcase your skills, resume, projects, and contact information in a clean and structured format.
 
----  
+## Website link
+- https://starhluga-portfolio.netlify.app/
 
-## 🌟 Project Overview  
-Your challenge is to build a **personal portfolio website** that showcases your skills, background, and achievements. Your portfolio should include:  
+🌐 **Page Breakdown**
+1. index.html – Home
+  - Purpose: Welcome page of the portfolio.
 
-1. **Programming Languages**: List the programming languages you’re proficient in.  
-2. **About Section**: Share a brief introduction about yourself, your passion, and what drives you.  
-3. **Educational Background**: Provide details of your education and include a downloadable CV.  
-4. **Interests**: Share what excites you about tech and your professional interests.  
-5. **Projects**: Include links to your projects with brief descriptions.  
-6. **Contact Form**: Make it easy for collaborators or employers to reach you.  
+   **Contents:**
+    - Brief introduction or tagline.
+    - Navigation menu (global).
+    - Visual emphasis on your name and role (e.g., “Software Developer”).
+    - Call to Action (CTA) button to "Learn more about me" (linking to about.html).
 
----  
+2. about.html – About Me
+    Purpose: Personal background and interests.
+   **Contents:**
+   - Profile picture with introductory text wrapped to the right and continued below.
+   - Skills section in grid layout with:
+   - Skill icon
+   - Skill name
+   - Proficiency bar
+   - Interests section with list or paragraph format.
+   - Shared global navigation and styling.
 
-## 🛠️ Guidelines  
+3. resume.html – Resume
+    Purpose: Timeline of academic and professional experience.
+   **Contents:**
+   - Vertical timeline using a styled .timeline component.
+   - Bullet points under each timeline item for responsibilities or achievements.
+   - Dates, titles, and short descriptions
+   - Styled to match overall design (green accents, dark background).
 
-- **Skills**: Build your portfolio using HTML and CSS.  
-- **Individual Work**: This is a solo challenge—showcase your skills and creativity.
-- **Deskie Team Up**: This is you and your Deskie working together, merging your skills and creativity to come up with something great.
-- **Reference Material**: For additional details and helpful information, refer to [this document](https://docs.google.com/document/d/1v-F-tXa1dwV2w5oMkM2QzAuoFoQYZlOEuT5qeRKDTPA/edit?usp=sharing).  
-- **Submission**: Push your project to a **public GitHub repository** and complete the submission form.  
+4. projects.html – Projects
+    Purpose: Highlight personal or academic projects.
+   **Contents:**
+   - Project cards in a grid layout.
+   - Each card contains:
+   - Project image
+   - Title & description
+   - Optional: link to GitHub or live demo
 
----  
+5. contact.html – Contact Me
+     Purpose: Allow users to reach out to you.
+   **Contents:**
+   - Contact form:
+   - Name, Email, Subject, Message
+   - Styled input and textarea fields
+   - Submit button with hover effects
+   - Optional social media links/icons section
 
-## 📅 Key Dates  
+🧭  **Navigation**
+     All pages use a global sidebar menu controlled by a toggle input (#menu-toggle) and styled with position: fixed.
+    **Menu items:**
+   - About
+   - Resume
+   - Projects
+   - Contact
 
-**Start Date**: July 30th, 2025, 12:00 PM EAT
-**End Date**: Aug 3rd, 2025, 12:00 PM EAT
-**Award Ceremony**: Aug 8th, 2025, 5:00 PM EAT  
+🎨 **Design & Styling**
+   - Fonts: Cascadia Code
+   - Color Palette:
+   - Background: #0b0f0e
+   -  Primary Accent: #00cc66 (green)
+   - Text: darkgreen, #ccc
 
----  
+   **Layout:**
+    - Max width: 900px container centered
+    - Sidebar with shadow and border
+    - All content designed to be mobile-responsive
 
-## 💼 Example Portfolio Sections  
-
-### 📝 About Me  
-Hi! I’m [Your Name], a passionate web developer with a love for creating functional and beautiful web experiences.  
-
-### 🎓 Educational Background  
-I hold a degree in [Your Degree] from [Your University].  
-**[Download My CV](link-to-your-cv)**  
-
-### 💡 Interests  
-- **Web Development**: Exploring modern frameworks and best practices.  
-- **Tech Innovations**: Keeping up with emerging trends in technology.  
-
-### 🛠️ Projects  
-1. **[Project 1](link-to-project1)**: A brief description of your project.  
-2. **[Project 2](link-to-project2)**: Another brief description.  
-
-### 📬 Contact Me  
-Feel free to reach out! [Contact Form](link-to-your-contact-form)  
-
----  
-
-## 📁 Submission Instructions  
-
-1. **Create Your Portfolio**: Build a complete portfolio website with all the required sections.  
-2. **Push to GitHub**: Upload your project to a **public GitHub repository**.  
-3. **Update README**: Ensure your README.md includes details about your portfolio.  
-4. **Submit Your Project**: Use [this form](https://forms.gle/DVvnaM5AzkXPpxYSA) to share your GitHub repo.  
-
----  
-
-## 🏆 Evaluation Criteria  
-
-- **Creativity and Ingenuity (20%)**: Original ideas and standout features.  
-- **Code Quality (20%)**: Clean, readable, and efficient code.  
-- **Documentation (15%)**: Informative README and clear code comments.  
-- **Deployment (15%)**: Successfully hosted on a platform like GitHub Pages, Netlify or Vercel.  
-- **Development Process (15%)**: Effective collaboration and project management.  
-- **Technology Stack (15%)**: Usage of responsive, visually appealing tools.
-
-
----  
-
-We’re excited to see your unique creations! ✨  
-Happy coding, and good luck! 🍀  
